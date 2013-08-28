@@ -1,4 +1,3 @@
-
 var mud = require("mud.js");
 
 var world = new mud();
@@ -9,7 +8,7 @@ world.onCommand(['exit', 'quit', 'e', 'q'], function(client, args) {
 });
 
 world.onCommand(['guess', 'g'], function(client, args) {
-    var userGuessNum = parseInt(args[0]);
+    var userGuessNum = parseInt(args[0], 10);
     
     if(userGuessNum < client.number) {
         client.write("Samller than the number!\n");
