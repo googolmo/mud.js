@@ -1,0 +1,30 @@
+{
+  "name": "mud.js",
+  "version": "0.0.0",
+  "description": "A library that help people to create MUD game server in node.js.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fanzeyi/mud.js.git"
+  },
+  "keywords": [
+    "MUD",
+    "TCP",
+    "socket"
+  ],
+  "author": "Zeray Rice",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/fanzeyi/mud.js/issues"
+  },
+  "dependencies" : {
+    "colors" : ">= 0.6.2",
+    "underscore" : ">= 1.5.1"
+  }
+}
